@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    color: black;
+}
+
+#header a{
+    margin-right: 20px;
+}
+
+#logo{
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+#SearchBarContainer{
+    text-align: center;
+    margin-top:20px;
+}
+
+#SearchBar{
+    outline: 0;
+    padding: 10px;
+    width: 500px;
+    border-radius: 15px;
+    border: 1px solid #c4c4c4;
+}
+
+#ButtonContainer{
+    justify-content:center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.Button{
+    border-radius: 4px;
+    outline: 0;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #c4c4c4;
+    width: 120px;
+    opacity:0.9;
+}
+
+.Button:hover{
+    opacity:1;
+    border: 1px solid rgb(179, 177, 177);
+}
+
+#SearchBar:hover{
+    box-shadow:0 0 2px 2px #c4c4c4;
+}
+
+#logo .text{
+    color:#4285f4;
+    font:16px/16px roboto-regular, arial, sans-serif;
+    position:relative;
+    top:0;
+    left: -60px;
+    white-space:nowrap
+}
