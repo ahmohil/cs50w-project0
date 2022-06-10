@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Google Advanced Search
+    </title>
+    <link rel="stylesheet" href="css/AdvStyle.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id = "header">
+        <img id = "logo"  height="24px" width="74px"  src = https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png>
+        <button type= "button" class = "button1" href="https://accounts.google.com/ServiceLogin">Sign in</button>
+    </div>
+
+	<div class = "appbar">
+		<h1>Avanced Search</h1>
+	</div>
+
+	<div class = "r1">
+		<div class="c1" >Find pages with...</div>
+		<div class = "c2">To do this in the search box. <br><br></div>
+	<div>
+	<form action="/search" id = "s1zaZb" method="GET" name = "f">
+	<div clas = "row">
+		<div class="column1">
+			<label for="f1">all these words:</label>
+		</div>
+		<div class=" column">
+			<input class = "inputBox" value autofocus="autofocus" id = "f1" name="as_q" type= "text"></div>
+		<div class="Column3">Type the important words: tri-colour rat terrier <br><br>
+		</div>
+	</div>
+	<div clas = "row">
+		<div class="column1">
+			<label for="f2">this exact word or phrase: </label>
+		</div>
+		<div class=" column">
+			<input class = "inputBox" value autofocus = "autofocus" id="f2" name="as_epq" type= "text">
+		</div>
+		<div class="Column3">Put exact words in quotes: "rat terrier"<br><br></div>
+	</div>
+	<div clas = "row">
+		<div class="column1">
+			<label for = "f3">any of these words:</label>
+		</div>
+		<div class=" column">
+			<input class = "inputBox" value autofocus = "autofocus" id = "f3" name = "as_oq" type = "text">
+		</div>
+		<div class="Column3">Type OR between all the words you want: miniature OR standard<br><br></div>
+	</div>
+	<div clas = "row">
+		<div class="column1">
+			<label for = "f4">none of these words:</label>
+		</div>
+		<div class=" column">
+			<input class = "inputBox" value autofocus = "autofocus" id = "f4" name = "as_eq" type = "text">
+		</div>
+		<div class="Column3">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell" <br><br></div>
+	</div>
+</form>
+
+</body>
